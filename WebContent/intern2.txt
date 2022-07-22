@@ -1,0 +1,154 @@
+html --> 
+jsp ---> html + java 
+
+
+
+Registration
+Login 
+
+Home 
+
+
+
+
+server--> web.xml  
+
+
+	index.html
+	index.html
+	index.jsp 
+	home.html 
+
+
+
+first.html
+
+404
+
+---------------------------------
+1) tomcat server --> 
+2) external --> google / internet 
+
+
+how to link lib which is inside tomcat/lib??
+---------------------------------
+
+project -> right click -> java build path --> lib -->[If you get modulepath and class path then select module path ] add external jar --> browse -> apache tomcat/lib -> servlet-api.jar + jsp-api.jar --> now select order and exports tab --> select all --> apply and close --> 
+
+
+how to create jsp????
+--------------------
+right click on webapp or webcontent folder -> new -> jsp -> YouJspName.jsp -> finish 
+
+
+
+
+webapp --> www --> http 
+
+user ---> input --> submit --->[request] server -> process --> response 
+
+
+
+logic --> controller --> 
+	Servlet 
+Servlet -> GenericServlet --> HttpServlet 
+
+
+1) java class extends  HttpServlet 
+2) service(request,response)
+3) web.xml --> mapping / annotation 
+
+
+
+WebContent / WebApp 
+
+View 
+request --> jsp 
+response ---> jsp 
+
+Controller 
+Servlet 
+
+
+Model 
+dao 
+
+MVC design pattern 
+
+hotel --> waiter 
+
+----------------------------
+
+
+jsp --> java -->scriptlet --> <%  %> 
+jsp --> java --> print --> expression =-> <%= %> 
+
+
+----------------------------
+validation --
+	today- required
+	tomorrow - format  
+
+1) frontend --js X  
+2) backend --
+
+-----------------
+
+EL - expression lang. 
+${} 
+
+
+-----------------
+Signup.jsp --> submit --> SignupController ---> get validation --> db --> insert -->yes/no --> servle --> response 
+
+
+servlet-api
+jsp-api 
+
+java.sql
+jdbc api 
+
+
+driver 
+pg   .jar  [[ java --> connect --> pg ]] 
+mysql .jar 
+mssql .jar 
+oracle
+mongodb
+
+-------------------------------------
+insert into users (firstname,lastname,email,password,gender) values (?,?,?,?,?);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
